@@ -27,12 +27,13 @@
 
   <!-- Template Main CSS File -->
   <link href="{{ asset('site/assets/css/style.css') }}" rel="stylesheet">
-  <!-- =======================================================
-  * Template Name: Kelly - v2.0.0
-  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+
+    <!-- =======================================================
+    * Template Name: Kelly - v2.0.0
+    * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 
 
 </head>

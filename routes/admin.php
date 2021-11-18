@@ -3,6 +3,7 @@
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\LoginController;
 use App\Http\Controllers\admin\ProfileSettingsController;
+use App\Http\Livewire\Portfolio;
 use GuzzleHttp\Middleware;
 use Illuminate\Support\Facades\Route;
 
@@ -133,6 +134,9 @@ Route::group(['middleware' => 'auth:admin'], function () {
     Route::get('/socialmedia/delete/{id}', [DashboardController::class, 'destroySocial'])->name('admin.socialmedia.delete');
 
     ################################# End contact & Mail Route ####################################
+
+
+    Route::get('livewire/portfolio' , Portfolio::class);
 
 });
 
